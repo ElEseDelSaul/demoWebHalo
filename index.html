@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Infinite</title>
+    <!--Google Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer">
+
+        <header>
+            <nav>
+                <!--Menu Mobile-->
+                <div class="mobile">
+
+                    <div class="header">
+                        <button id="btnMenu">
+                            <span class="material-icons">&#xe5d2;</span>
+                        </button>
+                        <a href="#">
+                            <img src="./src/img/logo.png" width="100px" alt="Logotipo Microsoft">
+                        </a>
+                        <div>
+                            <a href="">
+                                <span class="material-icons">&#xe8cc;</span>
+                            </a>
+                            <a href="">
+                                <span class="material-icons">&#xe853;</span>
+                            </a>
+                        </div>
+                    </div>
+                <!--Options Menu Mobil-->
+                    <div class="links">
+                        <a href="">Game Pass</a>
+                        <a href="">Games</a>
+                        <a href="">Devices</a>
+                        <a href="">Cloud Gaming</a>
+                        <a href="">Community</a>
+                        <a href="">Support</a>
+                        <a href="">My Xbox</a>
+                        <a href="">All Microsoft</a>
+                        <a href="">Search</a>
+                    </div>
+
+                </div>
+
+                <!--Menu Desktop-->
+                <ul>
+                    <li><a href="#">
+                        <img src="./src/img/logo.png" width="100px" alt="Logotipo Microsoft">
+                    </a></li>
+                    <li><a href="#" class="link">Game Pass</a></li>
+                    <li><a href="#" class="link">Games</a></li>
+                    <li><a href="#" class="link linkHide">Devices</a></li>
+                    <li><a href="#" class="link linkHide">Cloud Gaming</a></li>
+                    <li><a href="#" class="link linkHide">Community</a></li>
+                    <li><a href="#" class="link linkHide">Support</a></li>
+                    <li><a href="#" class="link linkHide">My Xbox</a></li>
+
+                    <li class="more">
+                        <a href="#" class="link" id="btnMore">More</a>
+                        <div class="menu">
+                            <a href="#">Devices</a>
+                            <a href="#">Cloud Gaming</a>
+                            <a href="#">Community</a>
+                            <a href="#">Support</a>
+                            <a href="#">My Xbox</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul>
+                    <li><a href="#" class="link">Search</a></li>
+                    <li><a href="#" class="link">Card</a></li>
+                    <li><a href="#" class="link">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="banner">
+            <h2>Halo Infinite</h2>
+            <p>
+                <a href="#" class="btnGreen">
+                    Get it Now<span class="material-icons">&#xe5cc;</span>
+                </a>
+            </p>
+            <p>Avaible with Xbox Game Pass</p>
+            <p>
+                <a href="#" class="linkGreen"
+                >JOIN NOW<span class="material-icons">&#xe5cc;</span>
+                </a>
+            </p>
+        </section>
+
+        <section id="videos">
+            <h2>BECOME</h2>
+            
+            <p class="w-75">The legenady Halo series returns with the most expansive Master Chief campaign yet and a ground-breaking free to play multiplayer experience.</p>
+
+            <h3>Trailers and Gameplay</h3>
+
+            <div id="slider">
+
+                <div id="controls">
+                    <button id="prev">
+                        <span class="material-icons">&#xe5e0;</span>
+                    </button>
+                    <button id="next">
+                        <span class="material-icons">&#xe5e1</span>
+                    </button>
+                </div>
+
+                <div id="current">
+
+                </div>
+
+                <div id="videosContainer"></div>
+
+            </div>
+
+        </section>
+
+        <section id="multiPlayer">
+            <div class="info">
+                <h2>LEGENDARY MULTIPLAYER</h2>
+                <p>The next era of Halo begins! To celebrate the 20th Anniversary of the franchise, Halo Infinite's multiplayer beta is available now and free to play on Xbox and PC.Begin your personal Spartan journey today with Season 1, "Heroes of Reach", and stay tuned for upcoming, limited-time in-game events and exclusive rewards.</p>
+            </div>
+        </section>
+
+        <section id="getTheGame">
+            <h2>Get the Game</h2>
+            <div class="itemStore">
+                <div class="left">
+                    <img src="./src/img/game.png" alt="Halo Infinite">
+                </div>
+                <div class="right">
+                    <div class="infoProduct">
+                        <h3>Halo Infinite (Campaing)</h3>
+                        <h4>
+                            Include with Xbox Game Pass
+                        </h4>
+                        <p>
+                            Infinite and over 100 more high-quality games for one low monthly price with Xbox Game Pass.
+                        </p>
+                        <button class="btnGreen"
+                        >Join Xbox Game Pass <span class="material-icons">&#xe5cc;</span> </button>
+                        <h4>Buy Halo Infinite</h4>
+                        <p>$59.99 USD</p>
+                        <select name="" id="">
+                            <option value="xbox">Xbox</option>
+                            <option value="windows">Windows 10</option>
+                            <option value="steam">Steam</option>
+                        </select>
+                        <p>
+                            <button class="btnGreen">BUY NOW <span class="material-icons">&#xe5cc;</span> </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h3 class="author">This website was created by Saúl Medina Garduño</h3>
+        </footer>
+
+    </div>
+    <script src="./src/js/app.js" type="module"></script>
+</body>
+
+</html>
