@@ -5,12 +5,12 @@ You can visit the project in the next link:
 
 https://demo-web-halo-kkgycxysm-elesedelsaul.vercel.app/
 
-![](/srcc/project/1.png)
-![](/srcc/project/2.png)
-![](/srcc/project/3.png)
-![](/srcc/project/4.png)
-![](/srcc/project/5.png)
-![](/srcc/project/6.png)
-![](/srcc/project/7.png)
-![](/srcc/project/8.png)
-![](/srcc/project/9.png)
+![](/src/project/1.png)
+![](/src/project/2.png)
+![](/src/project/3.png)
+![](/src/project/4.png)
+![](/src/project/5.png)
+![](/src/project/6.png)
+![](/src/project/7.png)
+![](/src/project/8.png)
+![](/src/project/9.png)
